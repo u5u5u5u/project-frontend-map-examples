@@ -12,10 +12,18 @@ body {
   min-height: 100vh;
 }
 
-header { grid-area: _1; }
-main { grid-area: _2; }
-aside { grid-area: _3; }
-footer { grid-area: _4; }
+header {
+  grid-area: _1;
+}
+main {
+  grid-area: _2;
+}
+aside {
+  grid-area: _3;
+}
+footer {
+  grid-area: _4;
+}
 
 /* ヘッダー部分 */
 header {
@@ -37,12 +45,12 @@ main img {
 /* 右サイド部分 */
 aside {
   background-color: lightgray;
-  padding: 16px 32px;/* 余白 */
+  padding: 16px 32px; /* 余白 */
 }
 
 /* フッター部分 */
 footer {
   background-color: #eee; /* 灰色 */
   text-align: center; /* 中央寄せ */
-  padding: 16px;/* 余白 */
+  padding: 16px; /* 余白 */
 }
